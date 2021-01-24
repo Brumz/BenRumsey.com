@@ -1,0 +1,164 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#headerContainer {
+    height: 5rem;
+    width: 100%;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footerContainer {
+    height: 3rem;
+    width: 100%;
+    position:fixed;
+    left:0px;
+    bottom:0px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    border-top: 2px solid black;
+    background-color: white;
+}
+
+
+
+.name {
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+}
+
+
+.mainContainer {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1rem;
+    
+}
+ .whoDiv {
+    height: 90vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:2rem ;
+   /* border-bottom: 2px solid black; */
+   
+}
+
+.littleInfo1 {
+    height: 75vh;
+    width: 45vh;
+    border: 2px solid black;
+    font-family: 'Lobster', cursive;
+    
+    
+}
+.littleInfo2 {
+    height:  75vh;
+    width: 45vh;
+    border: 2px solid black;
+    font-family: 'Fredoka One', cursive;
+} 
+
+.projects {
+    height: 90vh;
+    width: 90%;
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    /* border-top: 2px solid black; */
+}
+
+.line {
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+   
+    
+}
+
+.cardContainer {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    
+}
+
+.card {
+    height: auto;
+    width: 21rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+}
+
+.whatItIs {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    .cardContainer {
+        height: 200vh;
+        width: inherit;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 3rem;
+        
+    }
+    .card {
+        margin-top: 5px;
+    }
+    .projects {
+        margin-left: 1rem;
+    }
+}
+
+i {
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+.gitLink {
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+i:hover {
+    color: #333333;
+}
+
+.gitLink:hover {
+    color: black;
+    font-family: 'Fredoka One', cursive;
+    text-decoration: none;
+}
+.gitLink:link {
+    text-decoration: none;
+}
+
+img {
+    border-radius: 4px;
+    width: 15rem;
+}
+
+#photos {
+    visibility: hidden;
+}
+    
