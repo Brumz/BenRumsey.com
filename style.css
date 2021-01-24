@@ -42,6 +42,7 @@ html, body {
     width: 100%;
     font-family: 'Fredoka One', cursive;
     font-size: 1rem;
+  
     
 }
  .whoDiv {
@@ -77,6 +78,7 @@ html, body {
     display: flex;
     justify-content: center;
     /* border-top: 2px solid black; */
+   
 }
 
 .line {
@@ -161,4 +163,32 @@ img {
 #photos {
     visibility: hidden;
 }
+
+.skillzCon{
+    height: 33.33vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.skill {
+    font-size: 5rem;
+    padding: 3rem;
+}
+
+/* @media screen and (max-width: 800px){
+    .skillzCon {
+        height: 15vh;
+        width: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: none;
     
+       
+    }
+} */
