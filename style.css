@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     width: 100%;
     margin: 0;
+    ;
 }
 
 #headerContainer {
@@ -56,20 +57,6 @@ html, body {
    
 }
 
-.littleInfo1 {
-    height: 75vh;
-    width: 45vh;
-    border: 2px solid black;
-    font-family: 'Lobster', cursive;
-    
-    
-}
-.littleInfo2 {
-    height:  75vh;
-    width: 45vh;
-    border: 2px solid black;
-    font-family: 'Fredoka One', cursive;
-} 
 
 .projects {
     height: 90vh;
@@ -123,6 +110,8 @@ html, body {
         flex-direction: column;
         align-items: center;
         margin-bottom: 3rem;
+        padding-top: 0;
+        padding-bottom: 0;
         
     }
     .card {
@@ -130,6 +119,9 @@ html, body {
     }
     .projects {
         margin-left: 1rem;
+    }
+    .skillzCon {
+        padding-top: 110vh;
     }
 }
 
@@ -171,6 +163,7 @@ img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
    
 }
 
@@ -179,16 +172,3 @@ img {
     padding: 3rem;
 }
 
-/* @media screen and (max-width: 800px){
-    .skillzCon {
-        height: 15vh;
-        width: inherit;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: none;
-    
-       
-    }
-} */
